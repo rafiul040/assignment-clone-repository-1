@@ -27,7 +27,7 @@ body{
     background-image: url(Assets/Hero-bg.png); 
     height: 750px;
     width: 100%;
-    margin-bottom: 200px;
+    margin-bottom: 170px;
 }
 
 
@@ -53,10 +53,10 @@ body{
     width: 132px;
     height: 43px;
     border-radius: 10px;
-    cursor: pointer;
 }
 .banner{
-    margin: 198px 0 0 0;
+    display: flex;
+    margin: 19px 0 0 0;
     align-items: center;
     text-align: center;
     height: 600px;
@@ -65,7 +65,6 @@ body{
     text-align: center;
     align-items: center;
     justify-items: center;
-
     width: 905px;
     margin: auto auto;
 }
@@ -87,12 +86,10 @@ body{
 
 
 .about-container{
-    margin: 0 auto 200px auto;
+    margin: 0 auto 270px;
     width: 80.5%;
     display: flex;
-    gap: auto;
-    /* align-items: center; */
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .about-title{
     width: 550px;
@@ -144,12 +141,12 @@ body{
     font-family: Inter;
     margin-bottom: 100px;
 }
-.h2{
+.about-ours h2{
     padding-top: 32px;
     font-weight: bold;
     font-size: 38px;
 }
-.about-user{
+.our-user{
     display: flex;
     align-items: center;
     text-align: center;
@@ -171,7 +168,7 @@ body{
 
 
 
-.user-ratings{
+.user-section{
     margin: 0 auto 200px auto;
     width: 80.5%;
     height: 356px;
@@ -179,11 +176,11 @@ body{
     border-radius: 24px;
     font-family: Inter;
 }
-.user-ratings h2{
+.user-section h2{
     font-weight: bold;
     font-size: 42px;
 }
-.main-div{
+.user-content{
     display: flex;
     padding-top: 50px;
     justify-content: center;
@@ -215,7 +212,7 @@ body{
 }
 
 
-.footer-form{
+.contact-form{
     margin-top: 200px;
     display: flex;
     margin: 0 auto;
@@ -233,7 +230,7 @@ body{
     text-align: left;
 }
 
-.form input[type="text"], .form input[type="email"], .form textarea{
+form input[type="text"], form input[type="email"], form textarea{
     width: 497px;
     border: none;
     border-radius: 10px;
@@ -243,6 +240,7 @@ body{
     height: 70px;
     display: block;
 }
+
 .submit{
     width: 497px;
     height: 62px;
@@ -255,13 +253,13 @@ body{
 }
 
 
-.footer-details{
+.footer{
     text-align: center;
     padding-top: 80px;
     padding-bottom: 100px;
     background: #ffffff;
 }
-.footer-details h1{
+.footer h1{
     margin: 0 auto;
     color: #4e47ff;
     font-weight: bold;
@@ -270,7 +268,7 @@ body{
     height: 121px;
     font-size: 100px;
 }
-.footer-details p{
+.footer p{
     margin: 0 auto;
     color: #252432;
     text-align: center;
@@ -278,17 +276,28 @@ body{
     height: 47px;
 }
 
-.footer-details ul{display: flex;
+.footer-links{
+    display: flex;
     list-style: none;
     width: 401px;
     margin: 0 auto;
     height: 24px;
     justify-content: center;
 }
-.footer-details a{
+.footer-links a{
     margin: 10px;
     width: 100px;
     height: 78px;
     text-decoration: none;
+    color: #252432;
     /* margin-bottom: 200px; */
+}
+
+
+
+.btn-hover:hover{
+    cursor: pointer;
+    background: #f1c311;
+    color: #252432;
+    transition: 0.3s ease;
 }
