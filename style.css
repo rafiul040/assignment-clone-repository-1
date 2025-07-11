@@ -169,7 +169,7 @@ body{
 
 
 .user-section{
-    margin: 0 auto 200px auto;
+    margin: 0 auto 100px auto;
     width: 80.5%;
     height: 356px;
     text-align: center;
@@ -212,13 +212,68 @@ body{
 }
 
 
-.contact-form{
-    margin-top: 200px;
-    display: flex;
+
+
+.hero-section{
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    width: 80.5%;
+    height: 800px;
+    padding: 12px;
+    margin-bottom: 100px;
+}
+.hero-container{
+    align-items: center;
+    text-align: center;
+    border-radius: 14px;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 100px;
+}
+
+.hero-container h2{
+    width: 516px;
+    height: 60px;
+    margin: 0 auto;
+    font-size: 50px;
+    font-weight: bold;
+}
+.hero-container p{
+    margin: 27px;
+    color: #252432;
+}
+
+.hero-btn{
+    font-size: 18px;
+    font-weight: 500;
+    width: 195px;
+    height: 48px;
+    border-radius: 10px;
+    margin: 20px;
+    background: #4e47ff;
+    border: none;
+    color: #ffffff;
+}
+.hero-img{
+    width: 840px;
+    height: 364px;
+    margin: 0 auto;
+}
+.hero-img img{
+    border-radius: 48px;
+
+}
+
+
+
+
+.contact-form{
+    display: flex;
+    margin: 200px auto;
     justify-content: space-around;
     width: 80.5%;
-    height: 632px;
+    height: 300px;
     border-radius: 24px;
     font-family: Inter;
 }
@@ -230,6 +285,12 @@ body{
     text-align: left;
 }
 
+.form-input label {
+  display: block;
+  margin-bottom: 12px;
+}
+
+
 form input[type="text"], form input[type="email"], form textarea{
     width: 497px;
     border: none;
@@ -240,6 +301,7 @@ form input[type="text"], form input[type="email"], form textarea{
     height: 70px;
     display: block;
 }
+
 
 .submit{
     width: 497px;
@@ -274,6 +336,7 @@ form input[type="text"], form input[type="email"], form textarea{
     text-align: center;
     width: 531px;
     height: 47px;
+    padding: 13px;
 }
 
 .footer-links{
@@ -282,6 +345,7 @@ form input[type="text"], form input[type="email"], form textarea{
     width: 401px;
     margin: 0 auto;
     height: 24px;
+    padding: 20px;
     justify-content: center;
 }
 .footer-links a{
