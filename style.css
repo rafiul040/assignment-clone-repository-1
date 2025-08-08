@@ -362,6 +362,8 @@ form input[type="text"], form input[type="email"], form textarea{
 .btn-hover:hover{
     cursor: pointer;
     background: #f1c311;
+    font-size: 19px;
+    font-weight: 800;
     color: #252432;
     transition: 0.3s ease;
 }
