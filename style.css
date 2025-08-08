@@ -367,3 +367,13 @@ form input[type="text"], form input[type="email"], form textarea{
     color: #252432;
     transition: 0.3s ease;
 }
+
+
+.user-say:hover{
+    
+    width: 30%;
+    height: 279px;
+    transition: 0.3s ease;
+    
+}
+
