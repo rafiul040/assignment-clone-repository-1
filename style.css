@@ -380,3 +380,9 @@ form input[type="text"], form input[type="email"], form textarea{
     transition: 0.3s ease;
     
 }
+
+
+.footer .copy-right{
+    margin-top: 50px;
+    margin-bottom: -90px;
+}
