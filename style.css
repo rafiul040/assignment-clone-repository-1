@@ -67,6 +67,7 @@ body{
 .banner-content p{
     font-size: 65px;
     font-weight: bold;
+   
 }
 .banner-btn{
     margin-top: 50px;
@@ -333,13 +334,15 @@ form input[type="text"], form input[type="email"], form textarea{
     width: 531px;
     height: 47px;
     padding: 13px;
+    line-height: 1.6;
+    font-weight: 500;
 }
 
 .footer-links{
     display: flex;
     list-style: none;
     width: 401px;
-    margin: 0 auto;
+    margin: 20px auto;
     height: 24px;
     padding: 20px;
     justify-content: center;
@@ -385,4 +388,6 @@ form input[type="text"], form input[type="email"], form textarea{
 .footer .copy-right{
     margin-top: 50px;
     margin-bottom: -90px;
+    font-size: 21px;
+    font-weight: bolder;
 }
